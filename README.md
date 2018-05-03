@@ -1,4 +1,4 @@
-# coinflow-market-feed
+# Coinflow Market Feed
 Market feed is a service to fetch the latest market data. It currently polls the bittrex api every second for market data and stores in a mongo db.
 
 # Getting started
@@ -15,5 +15,5 @@ Note that this is not intended for end users who are installing Go software - th
 
 Install with homebrew: `brew install dep`
 Pull all dependencies: `dep ensure`
-Add need dependancy to project: `dep ensure -add github.com/foo/bar`
+Add new dependency to project: `dep ensure -add github.com/foo/bar`
 
