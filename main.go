@@ -4,9 +4,9 @@ import (
 	"fmt"
 	"gopkg.in/mgo.v2"
 	// "gopkg.in/mgo.v2/bson"
+	"bitbucket.org/visa-startups/coinflow-strategy-worker/models"
 	"log"
 	"time"
-	"worker-queue/models"
 )
 
 func main() {

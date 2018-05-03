@@ -1,10 +1,10 @@
 package main
 
 import (
+	"bitbucket.org/visa-startups/coinflow-strategy-worker/models"
 	"encoding/json"
 	"log"
 	"net/http"
-	"worker-queue/models"
 	// "net/url"
 )
 
