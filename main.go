@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"gopkg.in/mgo.v2"
 	// "gopkg.in/mgo.v2/bson"
-	"bitbucket.org/visa-startups/coinflow-strategy-worker/models"
+	"bitbucket.org/onyxium/onyxium-strategy-worker/models"
 	"log"
 	"time"
 )
@@ -19,7 +19,7 @@ func main() {
 	// Optional. Switch the session to a monotonic behavior.
 	session.SetMode(mgo.Monotonic, true)
 
-	c := session.DB("coinflow").C("market")
+	c := session.DB("onyxium").C("market")
 
 	for {
 		time.Sleep(time.Second)

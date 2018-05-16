@@ -1,11 +1,12 @@
 package main
 
+// TODO In the future this needs to change to a bittrex api wrapper
+// TODO Exchange interface
 import (
-	"bitbucket.org/visa-startups/coinflow-strategy-worker/models"
+	"bitbucket.org/onyxium/onyxium-strategy-worker/models"
 	"encoding/json"
 	"log"
 	"net/http"
-	// "net/url"
 )
 
 type MarketSummaryResponse struct {
