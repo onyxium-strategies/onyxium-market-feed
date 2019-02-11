@@ -4,7 +4,7 @@ Market feed is a service to fetch the latest market data. It currently polls the
 # Getting started
 Install go: https://golang.org/dl/
 Make sure your $GOPATH is correct. 
-`go get https://github.com/onyxium-strategies/market-feed.git`
+`go get https://github.com/onyxium-strategies/onyxium-market-feed.git`
 `cd $GOPATH/bin`
 `./onyxium-market-feed`
 
