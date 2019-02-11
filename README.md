@@ -1,11 +1,10 @@
-# Coinflow Market Feed
+# Onyxium Market Feed
 Market feed is a service to fetch the latest market data. It currently polls the bittrex api every second for market data and stores in a mongo db.
 
 # Getting started
 Install go: https://golang.org/dl/
-Make sure your $GOPATH is correct. In order to clone a private bitbucket repo we need to enable default cloning with SSH instead of https.
-`git config --global url."git@bitbucket.org:".insteadOf "https://bitbucket.org/"`
-`go get bitbucket.org/onyxium/onyxium-market-feed`
+Make sure your $GOPATH is correct. 
+`go get https://github.com/onyxium-strategies/market-feed.git`
 `cd $GOPATH/bin`
 `./onyxium-market-feed`
 
