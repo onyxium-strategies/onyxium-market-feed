@@ -3,8 +3,8 @@ package main
 // TODO In the future this needs to change to a bittrex api wrapper
 // TODO Exchange interface
 import (
-	"bitbucket.org/onyxium/onyxium-strategy-worker/models"
 	"encoding/json"
+	"github.com/onyxium-strategies/onyxium-strategy-worker/models"
 	"log"
 	"net/http"
 )

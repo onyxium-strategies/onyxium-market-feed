@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"gopkg.in/mgo.v2"
 	// "gopkg.in/mgo.v2/bson"
-	"bitbucket.org/onyxium/onyxium-strategy-worker/models"
+	"github.com/onyxium-strategies/onyxium-strategy-worker/models"
 	"log"
 	"time"
 )
